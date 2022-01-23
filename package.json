@@ -1,23 +1,18 @@
 {
   "name": "passjs",
   "version": "1.0.0",
-  "description": "A simple password generator that can also be used as a CLI",
+  "description": "A simple password generator.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [
-    "CLI",
     "passwords",
-    "generator",
-    "validator"
+    "password",
+    "generator"
   ],
+  "repository": "github:blazingfire007/passjs",
   "author": "Eli Richardson",
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.25.0",
-    "chalk": "^5.0.0",
-    "commander": "^8.3.0"
-  }
+  "license": "MIT"
 }
