@@ -1,6 +1,6 @@
 {
   "name": "@eli.richardson/pass-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple password generator.",
   "main": "index.js",
   "type": "module",
