@@ -1,7 +1,7 @@
-# PassJS
+# Pass-JS
 A complete Node.js password generator.
 
-- [PassJS](#passjs)
+- [Pass-JS](#pass-js)
   - [Installation](#installation)
   - [Usage](#usage)
     - [Word generator mode:](#word-generator-mode)
@@ -44,7 +44,7 @@ npm i @eli.richardson/pass-js
 
 **With `await`**
 ```js
-import PassJS from "passjs";
+import PassJS from "@eli.richardson/pass-js";
 
 const password = new PassJS();
 
@@ -53,7 +53,7 @@ console.log(password.make(options));
 ```
 **With `.then`**
 ```js
-import PassJS from "./index.js";
+import PassJS from "@eli.richardson/pass-js";
 
 const password = new PassJS();
 
@@ -64,7 +64,7 @@ password.init().then(() =>
 ```
 ### "Traditional" mode:
 ```js
-import PassJS from "passjs";
+import PassJS from "@eli.richardson/pass-js";
 
 const options = {traditional: true};
 const password = new PassJS();
@@ -74,7 +74,7 @@ console.log(password.make(options));
 ## Examples:
 ### Word generator:
 ```js
-import PassJS from "passjs";
+import PassJS from "@eli.richardson/pass-js";
 const password = new PassJS();
 await password.init();
 console.log(password.make({
@@ -89,7 +89,7 @@ Output:
 ```
 ### Traditional:
 ```js
-import PassJS from "passjs";
+import PassJS from "@eli.richardson/pass-js";
 const password = new PassJS();
 console.log(password.make({
     traditional: true,
@@ -141,7 +141,7 @@ read.pipe(gzip).pipe(write);
 ```
 
 ```js
-import PassJS from "passjs";
+import PassJS from "@eli.richardson/pass-js";
 
 const password = new PassJS();
 await password.init("./uppers.txt");
@@ -163,7 +163,7 @@ Example output:
 
 ## Usage
 ```js
-import PassJS from "passjs";
+import PassJS from "@eli.richardson/pass-js";
 
 const password = new PassJS();
 const options = {
