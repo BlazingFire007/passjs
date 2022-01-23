@@ -30,7 +30,7 @@ A complete Node.js password generator.
 
 ## Installation
 ```sh
-npm i passjs
+npm i @eli.richardson/pass-js
 ```
 ## Usage
 ### Word generator mode:
